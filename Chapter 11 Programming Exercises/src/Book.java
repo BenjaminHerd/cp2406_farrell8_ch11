@@ -9,9 +9,8 @@
 public abstract class Book {
 
     //variable declaration
-    String bookType;
     String title;
-    Double price;
+    double price;
 
     //Public class Book:
     public Book(String name){
@@ -27,7 +26,7 @@ public abstract class Book {
         return title;
     }
 
-    public Double getPrice() {
+    public double getPrice() {
         return price;
     }
 }
