@@ -5,5 +5,15 @@ public abstract class Division {
     protected String name;
     protected int accountNum;
 
+    //public class constructor
+    public Division(String title, int num){
+
+        name = title;
+        accountNum = num;
+
+    }
+
+    public abstract void display();
+
 
 }
